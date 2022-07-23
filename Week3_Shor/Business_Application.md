@@ -6,6 +6,8 @@ To complement the technical tasks, please consdier the four questions below.
 You are free to format your response to these four questions as you wish (with the final question done as a short recorded video), and to include
 the content (or links to the content) on your forked repository.
 
+![Week3_Shor/Images/Logo-TM.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Logo-TM.png)
+
 ## Step 1: Explain the technical problem you solved in this exercise
 
 In this exercise, we explored public-key cryptography by using the RSA algorithm to distribute asymmetric keys, and we used those keys to encrypt and decrypt messages from plaintext to ciphertext and vice versa. We then implemented a simulation of Shor's algorithm and broke RSA for small numbers by prime factorization, demonstrating the threat that a fault-tolerant quantum computer presents to RSA (as well as to discrete logarithm- and elliptical curve discrete logarithm-based key distribution algorithms). The majority of Shor's algorithm is actually classical in nature, with the exception of one crucial step: order finding. The main differentiator between classical factorization methods and the quantum order-finding algorithm is that classical methods require brute-force solving for a multiplication factor, $d$, by trying the computation for each integer value, one-by-one, while the quantum order-finding algorithm exploits quantum superposition and entanglement to converge onto the correct value of $d$ using a single computation, with high probability.
@@ -16,15 +18,53 @@ We further explored implementing Shor's algorithm on quantum hardware, as well a
 
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
 
-Example: A courier has to deliver parcels to several locations and is looking to minimize its travel time. (e.g., “the travelling salesman problem”).
-
 Example 1: Banks send sensitive financial information over networks on a regular basis. This information is encrypted using classical key distribution protocols such as RSA. An eavesdropper with access to a quantum computer runnning Shor's algorithm could decrypt the ciphertext into plaintext and steal the information.
 
 Example 2: National defense organizations possess and transmit sensitive information that has a sensitivity timescale of tens of years or longer. Despite the fact that quantum hardware capable of executing Shor's algorithm is not yet available, a hostile entity could steal and store information in the form of ciphertext that was encrypted using RSA-generated keys, only to wait until quantum computation power enables the use of Shor's algorithm to decrypt into plaintext and steal the information that pertains to issues of national security.
 
-Example 3: Telecommunications companies act as an information hub, transmitting the data and information belonging to clients across their networks. The use of Shor's algorithm to decrypt and access that information represents a major liability to the telecommunications company. Offering an invulnerable solution to this problem not only reduces the liability of the teleco, but also provides a value proposition that the teleco can offer to its clients.
+Example 3: Telecommunications companies act as an information hub, transmitting the data and information belonging to clients across their networks. The use of Shor's algorithm to decrypt and access that information represents a major liability to the telecommunications company, and a potential loss of trust by its clients. Offering an invulnerable solution to this problem not only reduces the liability of the teleco, but also provides a value proposition that the teleco can offer to its clients.
 
+As our solution to Task 4 of the Cohort Project, we have created a pitch deck to present to one of the potential clients listed in the above use-cases. We present from the perspective of a startup company founded by some of the members of our group, Quantized Technologies Inc. (QTI), and we assume a non-technical audience. QTI is working on solving exactly these sorts of problems, and will offer an initial solution called MDI-QKD (the future commercial product name has not yet been chosen). 
 
+![Week3_Shor/Images/Slide%201.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%201.png)
+
+First, we explain the problem to the client. 
+
+Sensitive information is currently kept secure by means of difficult math problems that would take eavesdroppers so long to solve (thousands of years) that it is impractical for them to try. The reason for this is that the computer has to try each possible "passcode" individually, one-by-one. Now, with the advent of quantum computation, an eavesdropper will be able to solve that math problem quickly by trying all possible "passcodes" simultaneously.
+
+![Week3_Shor/Images/Slide%203.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%203.png)
+
+The ability of quantum computers to solve difficult math problems in seconds that would take a classical computer thousands of years has been demonstrated, and quantum computers that can break our encryption methods are projected to be created within the next 10 years. Not only should we start implementing systems that are safe against the hacking threat of quantum computers, but if we have information that will remain sensitive for 10 years or longer, we need to act immediately, since a bad actor could download our encrypted information right now, and decrypt it in a few years once capable quantum computers are available.
+
+![Week3_Shor/Images/Slide%204.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%204.png)
+
+Now, the solution: quantum physics to the rescue! Given that math problems can potentially be solved with enough computing power, rather than using math problems to generate our encryption keys, we can use an entirely different approach and leverage the laws of quantum physics to create our keys. These quantum-based solutions are called "QKD" solutions. 
+
+![Week3_Shor/Images/Slide%205.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%205.png)
+
+But there is a remaining problem. While no amount of computing power can break keys created using QKD, it is possible for an eavesdropper to obtain information about the key if they can access and manipulate the QKD hardware (specifically, the photodetectors). This type of hardware hack is the "Achilles heel" of current commercial QKD systems.
+
+![Week3_Shor/Images/Slide%206.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%206.png)
+
+Additional weaknesses of basic QKD solutions include detector cost (the most expensive component of the QKD hardware system)
+
+![Week3_Shor/Images/Slide%207.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%207.png)
+
+![Week3_Shor/Images/Slide%208.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%208.png)
+
+![Week3_Shor/Images/Slide%209.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%209.png)
+
+![Week3_Shor/Images/Slide%2010.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%2010.png)
+
+![Week3_Shor/Images/Slide%2011.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%2011.png)
+
+![Week3_Shor/Images/Slide%2012.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%2012.png)
+
+![Week3_Shor/Images/Slide%2013.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%2013.png)
+
+![Week3_Shor/Images/Slide%2014.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%2014.png)
+
+![Week3_Shor/Images/Slide%2015.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%2015.png)
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
