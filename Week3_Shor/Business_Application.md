@@ -44,33 +44,37 @@ Now, the solution: quantum physics to the rescue! Given that math problems can p
 
 But there is a remaining problem. While no amount of computing power can break keys created using QKD, it is possible for an eavesdropper to obtain information about the key if they can access and manipulate the QKD hardware (specifically, the photodetectors). This type of hardware hack is the "Achilles heel" of current commercial QKD systems.
 
-![Week3_Shor/Images/Slide%205.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%205.png)
+![Week3_Shor/Images/Slide%206a.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/197551fd10d12ecfee0f937e62ee42cf8b4dac08/Week3_Shor/Images/Slide%206a.png)
 
-Additional weaknesses of basic QKD solutions include detector cost (the most expensive component of the QKD hardware system)
+Additional weaknesses of basic QKD solutions include detector cost (the most expensive component of the QKD hardware system, and basic QKD systems require about half of the users to possess a set of detectors), as well as distance limitations over which the systems can function.
 
-![Week3_Shor/Images/Slide%205.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%205.png)
+![Week3_Shor/Images/Slide%207a.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/197551fd10d12ecfee0f937e62ee42cf8b4dac08/Week3_Shor/Images/Slide%207a.png)
 
-![Week3_Shor/Images/Slide%205.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%205.png)
+Now for the final solution: MDI-QKD. With our MDI-QKD solution, users in a network can obtain and share a secure key, and the security is not compromised even if an eavesdropper manipulates the system detectors. Further, the system is designed using a star-type topology, so only one set of detectors is needed, reducing the overall cost of the QKD network. Finally, MDI-QKD offers functionality over approximately twice the distance compared to basic QKD systems.
+
+![Week3_Shor/Images/Slide%208a.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/197551fd10d12ecfee0f937e62ee42cf8b4dac08/Week3_Shor/Images/Slide%208a.png)
+
+A top-down market analysis reveals many national initiatives over the past few years, in which governments are committing larger and larger investments into quantum technologies. Some target market verticals for our solution include banking, finance, insurance, health care, national security, telecommunications, and quantum network testbeds. 
 
 ![Week3_Shor/Images/Slide%209.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%209.png)
 
-![Week3_Shor/Images/Slide%2010.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%2010.png)
+By 2027 the quantum cryptography market is projected to reach ~$13 billion in annual revenue, and our target market includes metropolitan, fibre-based use cases, which we estimate will represent approximately $10 billion. Given our marketing channels, access to regional markets, expected resources, and other factors, we estimate that we can capture 10% of the target market, which represents annual revenue of approximately $1 billion. 
 
 ![Week3_Shor/Images/Slide%2011.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%2011.png)
 
-![Week3_Shor/Images/Slide%2012.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%2012.png)
-
-![Week3_Shor/Images/Slide%2013.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%2013.png)
+While updated math-based solutions, referred to as post-quantum cryptographic (PQC) solutions, are more resiliant against quantum computing compared to the math-based methods of yesterday, it is never-the-less possible that with evolution in quantum algorithms and progression in quantum computing power, these solutions will also be threatened in the future by quantum computing. For this reason, these PQC solutions are software patch solutions that are quantum-resistant, not truly quantum-proof like QKD solutions are. 
 
 ![Week3_Shor/Images/Slide%2014.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%2014.png)
 
-![Week3_Shor/Images/Slide%2015.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%2015.png)
+While PQC and basic QKD solutions do address the threat that quantum computing represents to cybersecurity, we feel that our MDI-QKD solution offers certain competitive advantages. It offers unprecedented quantum-proof -- not just quantum-resistant -- security, cost-effectiveness for a multi-user QKD network, and large functional range compared to basic QKD systems.
+
+![Week3_Shor/Images/Slide%2015a.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/59a63e12b707b0fa9a672824216fd1e8803fd097/Week3_Shor/Images/Slide%2015a.png)
+
+We hope to be able to find the right fit so that our MDI-QKD solution can reduce the pain-points experienced by your organization!
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
-Examples: 
-- Federal Express
-- Canada Post
+- 
 
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
