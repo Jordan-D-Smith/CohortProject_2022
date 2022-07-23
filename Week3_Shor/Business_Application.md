@@ -44,13 +44,13 @@ Now, the solution: quantum physics to the rescue! Given that math problems can p
 
 But there is a remaining problem. While no amount of computing power can break keys created using QKD, it is possible for an eavesdropper to obtain information about the key if they can access and manipulate the QKD hardware (specifically, the photodetectors). This type of hardware hack is the "Achilles heel" of current commercial QKD systems.
 
-![Week3_Shor/Images/Slide%206.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%206.png)
+![Week3_Shor/Images/Slide%205.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%205.png)
 
 Additional weaknesses of basic QKD solutions include detector cost (the most expensive component of the QKD hardware system)
 
-![Week3_Shor/Images/Slide%207.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%207.png)
+![Week3_Shor/Images/Slide%205.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%205.png)
 
-![Week3_Shor/Images/Slide%208.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%208.png)
+![Week3_Shor/Images/Slide%205.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%205.png)
 
 ![Week3_Shor/Images/Slide%209.png](https://github.com/Jordan-D-Smith/CohortProject_2022/blob/fece547b660c9cdd7933b57692318fe7e82bdfdd/Week3_Shor/Images/Slide%209.png)
 
