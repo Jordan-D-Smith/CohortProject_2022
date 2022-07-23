@@ -80,5 +80,6 @@ We hope to be able to find the right fit so that our MDI-QKD solution can reduce
 
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
+See [this](https://1drv.ms/u/s!Aly-26RuXWZBxWQlp3iW_NDQ4t6i) link for our value proposition video.
 
 **Please store your video externally to the repo, and provide a link e.g. to Google Drive**
