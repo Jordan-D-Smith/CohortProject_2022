@@ -74,10 +74,11 @@ We hope to be able to find the right fit so that our MDI-QKD solution can reduce
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
-- 
+- National Bank of Canada: Communication between metropolitan branches and headquarters involves sensitive information that would benefit from increased security.
+- US Department of Defense: Communications involving information related to national security may be sent over optical fiber networks, and maximum security of this information would be worth paying for.
+- AT&T: As a telecommunications company that provides data transmission services to many clients, security of the data transmitted is not only extremely important as a service provider, but its clients may also be interested in purchasing a solution for increases data security.
 
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
-Example: By travelling to all destinations via the shortest route, a courier can generate the same revenue that it would have generated following any other route, but will minimize travel costs (e.g., fuel costs). By minimizing travel costs, the courier will be more profitable than it would have been had it travelled through any other route.
 
 **Please store your video externally to the repo, and provide a link e.g. to Google Drive**
